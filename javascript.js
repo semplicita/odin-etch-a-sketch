@@ -18,7 +18,7 @@ createGrid(16)
 
 const btn = document.querySelector('#btn')
 btn.onclick = () => {
-    let size = prompt("Set grid size: ")
+    let size = prompt("Set grid size (between 1 and 100): ")
     if (size > 100) {
         alert("Grid size can't be larger than 100!")
     } else {
